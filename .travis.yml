@@ -3,18 +3,14 @@ node_js: node
 cache:
   directories:
     - node_modules
+before_script:
+  - npm install -g netlify-cli phantomjs-prebuilt resume-cli
 script:
   - resume export index.html resume.json --theme elegant
-env:
-  - CI=true
-
-before_deploy:
-  - npm install netlify-cli phantomjs-prebuilt resume-cli -g
-  - npm run build
-
 deploy:
   provider: script
   script: netlify deploy -s $NETLIFY_SITE_ID -t $NETLIFY_ACCESS_TOKEN -p ./build
-  skip_cleanup: true
   on:
     branch: master
+env:
+  - CI=true
