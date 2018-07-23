@@ -6,7 +6,7 @@ cache:
 before_script:
   - npm install -g netlify-cli phantomjs-prebuilt resume-cli jsonresume-theme-elegant
 script:
-  - resume export resume.json --theme elegant --format pdf
+  - resume export resume.json --theme elegant 
 deploy:
   provider: script
   script: netlify deploy -s $NETLIFY_SITE_ID -t $NETLIFY_ACCESS_TOKEN -p ./build
