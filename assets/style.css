@@ -248,7 +248,7 @@ a {
 }
 
 .aside-group .social-profile {
-    margin-bottom: 1.6rem
+    margin-bottom: 1rem
 }
 
 .aside-group .progress {
@@ -301,6 +301,15 @@ a {
     padding: 0rem 31rem 0rem 4rem;
 }
 
-.pdf-version .aside{
+.pdf-version .aside {
     width: 31rem;
+}
+
+
+.pdf-version .social-profile a span {
+    display: none;
+}
+
+.pdf-version .social-profile a:after {
+    content: attr(href);
 }
