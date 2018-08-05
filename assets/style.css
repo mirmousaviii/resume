@@ -4,8 +4,8 @@
 }
 
 html {
-    font-size: 11px;
-    line-height: 1.4;
+    font-size: 12px;
+    line-height: 1.6;
     color: #212121
 }
 
@@ -65,7 +65,8 @@ a {
     display: block;
     max-width: 120rem;
     font-size: 1.7rem;
-    padding: 0rem 29rem 0rem 9rem
+    /*padding: 0rem 29rem 0rem 9rem*/
+    padding: 0rem 31rem 0rem 4rem;
 }
 
 .main {
@@ -77,7 +78,8 @@ a {
     position: absolute;
     top: 0rem;
     right: 0;
-    width: 29rem;
+    /*width: 29rem;*/
+    width: 31rem;
     padding: 0 7.5rem 0 0
 }
 
@@ -297,13 +299,13 @@ a {
     display: none;
 }
 
-.pdf-version .container {
+/*.pdf-version .container {
     padding: 0rem 31rem 0rem 4rem;
 }
 
 .pdf-version .aside {
     width: 31rem;
-}
+}*/
 
 
 .pdf-version .social-profile a span {
