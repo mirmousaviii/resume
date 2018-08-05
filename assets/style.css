@@ -5,7 +5,7 @@
 
 html {
     font-size: 12px;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #212121
 }
 
@@ -189,7 +189,7 @@ a {
 }
 
 .experience-group .item-description {
-    line-height: 1.4;
+    line-height: 1.5;
     font-size: 1.8rem;
     color: #424242;
     font-weight: 400
@@ -246,11 +246,11 @@ a {
 
 .aside-group .text {
     font-size: 1.7rem;
-    line-height: 1.5
+    line-height: 1.6
 }
 
 .aside-group .social-profile {
-    margin-bottom: 1rem
+    /*margin-bottom: 1rem*/
 }
 
 .aside-group .progress {
