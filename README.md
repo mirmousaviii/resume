@@ -4,12 +4,14 @@ A simple resume.
 I used the resume inside [personal home page](https://github.com/mirmousaviii/personal-home-page). 
 
 
-### How to convert ti PDF
-Use [wkhtmltopdf](https://wkhtmltopdf.org/) for convert HTML to PDF
+### How to convert to PDF
+Use [wkhtmltopdf](https://wkhtmltopdf.org/) for local convert.
 
 ```
-wkhtmltopdf index.html Mohammad-Mirmousavi.Resume.pdf
+wkhtmltopdf index.html XXX.Resume.pdf
 ```
+Use [Webpage to PDF](https://webpagetopdf.com/) for online convert.
+
 
 ##### HTML Version
 http://resume.mirmousavi.com
