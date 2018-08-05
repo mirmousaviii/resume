@@ -292,3 +292,15 @@ a {
 }
 
 
+
+.pdf-version .aside-group-download {
+    display: none;
+}
+
+.pdf-version .container {
+    padding: 0rem 31rem 0rem 4rem;
+}
+
+.pdf-version .aside{
+    width: 31rem;
+}
