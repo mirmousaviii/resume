@@ -25,10 +25,6 @@ a {
     text-decoration: initial;
 }
 
-::selection {
-    background: #bdbdbd;
-}
-
 .preview-box {
     margin-top: 6rem;
     margin-bottom: 6rem;
