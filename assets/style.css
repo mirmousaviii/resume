@@ -103,7 +103,8 @@ a {
 }
 
 .personal-info-block .text-block {
-    float: left
+    /*float: left*/
+    text-align: center;
 }
 
 .personal-info-block .name {
